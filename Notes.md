@@ -7,7 +7,7 @@ CPU cores are involved in reading and writing data to DB via DB drivers. If numb
 It is the process of creating replicas to store multiple copies of the same data. The data may or may not be present on different machines.
 This setup is also called Master-Slave archtectue whic is discussed later.
 
-It helps in —
+It helps in :
 
 - Redundancy of the data
 - Speeds up the process of reading and writing
