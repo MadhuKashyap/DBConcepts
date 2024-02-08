@@ -3,6 +3,17 @@
 It is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. We need sharding in a DB where number of rows are large. 
 CPU cores are involved in reading and writing data to DB via DB drivers. If number of read and write operations increase in a DB, all the CPU cores will be engaged most of the times. So we split the data on multiple db servers and keep those DB servers on multiple machines. Now parallelism can be attained using n CPUs.
 
+### What is Replication and why do we need it?
+It is the process of creating replicas to store multiple copies of the same data. The data may or may not be present on different machines.
+This setup is also called Master-Slave archtectue whic is discussed later.
+
+It helps in —
+
+Redundancy of the data
+Speeds up the process of reading and writing
+Reduces load on the databases
+
+
 <img width="762" alt="image" src="https://github.com/MadhuKashyap/DBConcepts/assets/40714383/1654e70e-2668-4b21-8f1a-6ebdd4152ac2">
 
 ### Why is SQL DB not feasible for Horizontal Scaling?
@@ -36,3 +47,12 @@ T: (X+Y = 50, 000 + 450 = 50, 450).
 This results in database inconsistency, due to a loss of 50 units.
 
 - Durability : This property ensures that once the transaction has completed execution, the updates and modifications to the database are stored in and written to disk and they persist even if a system failure occurs.
+
+
+### What is Master-Slave architecture in DB?
+
+### What is the difference between SQL and NoSQL DBs?
+
+### Which DB to use in what scenario?
+
+
