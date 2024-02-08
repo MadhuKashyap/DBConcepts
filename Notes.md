@@ -53,8 +53,35 @@ This results in database inconsistency, due to a loss of 50 units.
 
 ### What is Master-Slave architecture in DB?
 
+<img width="715" alt="image" src="https://github.com/MadhuKashyap/DBConcepts/assets/40714383/01c8c11d-8d79-4ade-a969-24bca5b12011">
+
+The master database is the primary storage of the data, where all the writing operations of the data request are performed whereas the reading operation is spread across multiple slave databases relative to the master database. 
+
+Distributing load across slave nodes, this architecture can help your application scale out accommodating growing DB operations.
+
+If master goes down, one of the replicas is elected as the new master.
+
 ### What is the difference between SQL and NoSQL DBs?
 
+SQL : 
+- Data is structured and related (using primary and foreign key)
+- Strongly implements ACID properties
+- Vertiaclly scalable
+- SQL databases are table-based structure
+- These databases have fixed schema
+- These databases are best suited for complex queries like join
+- e.g. Mysql, PostgresSql
+
+NoSQL :
+- Used to handle structured, semi-structure and unstructured DB
+- Does not strongly implements ACID properties
+- Horizontally scalable
+- They are document based, key-value pair based or graph based
+- They have dynamic schema
+- They are not suited for complex queries
+- e.g. MongoDB, Cassandra, Neo4j
+
 ### Which DB to use in what scenario?
+
 
 
