@@ -9,9 +9,9 @@ This setup is also called Master-Slave archtectue whic is discussed later.
 
 It helps in —
 
-Redundancy of the data
-Speeds up the process of reading and writing
-Reduces load on the databases
+- Redundancy of the data
+- Speeds up the process of reading and writing
+- Reduces load on the databases
 
 
 <img width="762" alt="image" src="https://github.com/MadhuKashyap/DBConcepts/assets/40714383/1654e70e-2668-4b21-8f1a-6ebdd4152ac2">
