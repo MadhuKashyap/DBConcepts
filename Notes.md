@@ -38,6 +38,8 @@ Total after T occurs = 400 + 300 = 700.
 - Isolation : Multiple transactions occur independently without interference. In other words, Changes occurring in a particular transaction will not be visible to any other transaction until that particular change in that transaction is written to memory or has been committed. 
 
 Consider two transactions T and T”. 
+
+
 <img width="627" alt="image" src="https://github.com/MadhuKashyap/DBConcepts/assets/40714383/497c965c-e978-4764-b6a5-ef4a78ed747d">
 
 Suppose T has been executed till Read (Y) and then T’’ starts. As a result, interleaving of operations takes place due to which T’’ reads the correct value of X but the incorrect value of Y and sum computed by 
